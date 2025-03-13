@@ -2,11 +2,14 @@
   "name": "react-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://jpcardozx.github.io/saas-landing-page/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
